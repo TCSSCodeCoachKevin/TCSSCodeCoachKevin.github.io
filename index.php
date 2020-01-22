@@ -4,7 +4,7 @@
 	</head>
 	<body>
 	<div align="center">
-		<h1>Test</h1>
+		<h1>Testing</h1>
 	</div>
 	</body>
 </html>
