@@ -25,3 +25,17 @@ h1 {
 #languages {
 	list-style-position: inside;
 }
+
+.project_materials {
+	border-radius: 20px;
+	border: 2px solid red;
+	width: 125px;
+	height: 30px;
+	color: white;
+	font-size: 12pt;
+	font-family: 'Shadows Into Light', cursive;
+	background-color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
