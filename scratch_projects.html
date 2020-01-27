@@ -15,12 +15,22 @@
 			<li class="nav_items"><a href="html_projects.html">Web Development</a></li>
 		</ul>
 		<!-- End of Navbar -->
-		<div align="center">
+		<div class="page" align="center">
 			<h1>Scratch Projects - <i>Materials</i></h1>
 			<h3>Organized Alphabetically</h3>
-			<button id="angryBirds" class="project_materials" onclick="AngryBirdsMaterials();">Angry Birds</button>
-			<br>
-			<button id="donkeyKong" class="project_materials" onclick="DonkeyKongMaterials();">Donkey Kong</button>
+			<table>
+				<tr>
+					<td><button class="project_materials" onclick="AngryBirdsMaterials();">Angry Birds</button><caption id="angryBirds"></caption></td>
+					<td><button class="project_materials" onClick="BurgerShopMaterials();">Burger Shop</button><caption id="burgerShop"></caption></td>
+					<td><button class="project_materials" onclick="DonkeyKongMaterials();">Donkey Kong</button><caption id="donkeyKong"></caption></td>
+				</tr>
+			</table>
+			<hr>
+			<h2>Step-By-Step Lessons - <i>Scratch Code Club</i></h2>
+			<ul>
+				<li class="align_list"><a href="https://projects.raspberrypi.org/en/projects/memory">Memory Game</a></li>
+				<li class="align_list"><a href="https://projects.raspberrypi.org/en/projects/ghostbusters">Ghostbusterts</a></li>
+			</ul>
 		</div>
 	</body>
 </html>
