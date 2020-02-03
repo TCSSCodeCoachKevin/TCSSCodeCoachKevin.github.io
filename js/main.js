@@ -1,6 +1,6 @@
 function AngryBirdsMaterials() {
 	if (!$("#ab_element1").length) {
-		$("#angryBirds").after("<div><a id='ab_element1' href='materials/angryBirds/angryBirdSprite.svg'>Angry Bird Sprite</a></div>");
+		$("#angryBirds").append("<div><a id='ab_element1' href='materials/angryBirds/angryBirdSprite.svg'>Angry Bird Sprite</a></div>");
 		$("#ab_element1").after("<div><a id='ab_element2' href='materials/angryBirds/Background.png'>Background</a></div>");
 		$("#ab_element2").after("<div><a id='ab_element3' href='materials/angryBirds/pigSprite.svg'>Enemy Pig</a></div>");
 	} else {
@@ -12,7 +12,7 @@ function AngryBirdsMaterials() {
 
 function DonkeyKongMaterials() {
 	if (!$("#dk_element1").length) {
-		$("#donkeyKong").after("<div><a id='dk_element1' href='materials/donkeyKong/Level1_Background.png' >Level 1 (Background)</a></div>");
+		$("#donkeyKong").append("<div><a id='dk_element1' href='materials/donkeyKong/Level1_Background.png' >Level 1 (Background)</a></div>");
 		$("#dk_element1").after("<div><a id='dk_element2' href='materials/donkeyKong/Mario.svg'>Mario (Idle)</a></div>");
 		$("#dk_element2").after("<div><a id='dk_element3' href='materials/donkeyKong/MarioHoldingHammer.svg''>Mario (With Hammer)</a></div>");
 		$("#dk_element3").after("<div><a id='dk_element4' href='materials/donkeyKong/Barrel.svg''>Barrel</a></div>");
@@ -28,7 +28,7 @@ function DonkeyKongMaterials() {
 
 function BurgerShopMaterials() {
 	if (!$("#bs_element1").length) {
-		$("#burgerShop").after("<div><a id='bs_element1' href='materials/burgerShop/Background.svg'>Background</a></div>");
+		$("#burgerShop").append("<div><a id='bs_element1' href='materials/burgerShop/Background.svg'>Background</a></div>");
 		$("#bs_element1").after("<div><a id='bs_element2' href='materials/burgerShop/TopBun.png'>Top Bun</a></div>");
 		$("#bs_element2").after("<div><a id='bs_element3' href='materials/burgerShop/BottomBun.png'>Bottom Bun</a></div>");
 		$("#bs_element3").after("<div><a id='bs_element4' href='materials/burgerShop/Raw.svg'>Raw Patty</a></div>");
