@@ -1,3 +1,4 @@
+//SCRATCH START
 function AngryBirdsMaterials() {
 	if (!$("#ab_element1").length) {
 		$("#angryBirds").append("<div><a id='ab_element1' href='materials/angryBirds/Birds.sprite3'>Angry Bird Sprite</a></div>");
@@ -201,3 +202,10 @@ function WhackAMoleMaterials() {
 		$("#wam_element1").remove();
 	}
 }
+
+//SCRATCH END
+
+
+
+
+

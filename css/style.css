@@ -42,6 +42,24 @@ hr {
 	cursor: pointer;
 }
 
+.python_buttons {
+	border-radius: 100px;
+	width: 170px;
+	height: 100px;
+	border: 5px solid blue;
+	background-color: yellow;
+	font-family: 'Sigmar One', cursive;
+	font-size: 13pt;
+	overflow: hidden;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.python_sections {
+	font-family: 'Fredoka One', cursive;
+	color: lawngreen;
+}
+
 .page {
 	margin-left: auto;
 	margin-right: auto;
