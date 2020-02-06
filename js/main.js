@@ -205,7 +205,3 @@ function WhackAMoleMaterials() {
 
 //SCRATCH END
 
-
-
-
-

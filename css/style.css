@@ -55,6 +55,16 @@ hr {
 	margin: 5px;
 }
 
+.java_buttons {
+	cursor: pointer;
+	background-color: brown;
+	color: white;
+	border: 3px solid black;
+	width: 150px;
+	height: 75px;
+	font-size: 20pt;
+}
+
 .python_sections {
 	font-family: 'Fredoka One', cursive;
 	color: lawngreen;
@@ -64,3 +74,4 @@ hr {
 	margin-left: auto;
 	margin-right: auto;
 }
+
