@@ -38,7 +38,7 @@ function BurgerShopMaterials() {
 function CatchTheDotsMaterials() {
 	if (!$("#ctd_element1").length) {
 		$("#catchTheDots").append("<div><a id='ctd_element1' href='materials/catchTheDots/Controller.sprite3'>Controller</a></div>");
-		$("#ctd_element1").after("<div><a id='ctd_element2' href='materials/catchTheDots/Dot.sprite3'>Controller</a></div>");
+		$("#ctd_element1").after("<div><a id='ctd_element2' href='materials/catchTheDots/Dot.sprite3'>Dots</a></div>");
 	} else {
 		$("#ctd_element1").remove();
 		$("#ctd_element2").remove();
