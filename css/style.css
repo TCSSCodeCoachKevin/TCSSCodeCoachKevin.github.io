@@ -26,6 +26,13 @@ hr {
 	text-decoration: underline;
 }
 
+#codeClubSteps {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	list-style-position: inside;
+}
+
 .align_list {
 	list-style-position: inside;
 }
@@ -63,6 +70,7 @@ hr {
 	width: 150px;
 	height: 75px;
 	font-size: 15pt;
+	border-radius: 10px;
 }
 
 .python_sections {
