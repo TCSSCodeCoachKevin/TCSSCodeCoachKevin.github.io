@@ -7,37 +7,33 @@
     Unless compressed string is longer return original string
 """
 
-def compress_string(string):
+def compress_string(line):
   new_string = ""
   count = 1
-  for i in range(len(string)):
+  for i in range(len(line)):
     j = i
     j += 1
     try:
-      #check if same
-      if string[i] == string[j]:
+      if line[i] == line[j]:
         count += 1
       else:
-        new_string += string[i]
+        new_string += line[i]
         new_string += str(count)
         count = 1
     except:
-      #last index for value of i
-      new_string += string[i]
-      #check what value
+      # last index of value i
+      new_string += line[i]
       j = i
       j -= 1
-      if string[j] == string[i]:
+      if line[i] == line[j]:
         new_string += str(count)
       else:
         new_string += "1"
   #return
-  if len(new_string) > len(string):
-    print(string)
+  if len(new_string) > len(line):
+    print(line)
   else:
     print(new_string)
 
-
-#START PROGRAM
 string = input("Enter a string with repeated characters\n")
 compress_string(string)
