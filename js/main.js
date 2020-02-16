@@ -1,7 +1,7 @@
 //SCRATCH START
 function AngryBirdsMaterials() {
 	if (!$("#ab_element1").length) {
-		$("#angryBirds").append("<div><a id='ab_element1' href='materials/angryBirds/Birds.sprite3'>Angry Bird Sprite</a></div>");
+		$("#angryBirds").append("<div><a id='ab_element1' href='materials/angryBirds/Birds.sprite3'>Angry Bird</a></div>");
 		$("#ab_element1").after("<div><a id='ab_element2' href='materials/angryBirds/Background.png'>Background</a></div>");
 		$("#ab_element2").after("<div><a id='ab_element3' href='materials/angryBirds/Pig.sprite3'>Enemy Pig</a></div>");
 	} else {
@@ -73,10 +73,10 @@ function CreateYourOwnWorld() {
 
 function DigDugMaterials() {
 	if (!$("#dd_element1").length) {
-		$("#digDug").append("<div><a id='dd_element1' href='materials/digDug/DigDug.sprite3'>Dig Dug Sprite</a></div>");
-		$("#dd_element1").after("<div><a id='dd_element2' href='materials/digDug/Dragon.sprite3'>Dragon Sprite</a></div>");
-		$("#dd_element2").after("<div><a id='dd_element3' href='materials/digDug/Enemy.sprite3'>Enemy Sprite</a></div>");
-		$("#dd_element3").after("<div><a id='dd_element4' href='materials/digDug/Rock.sprite3'>Rock Sprite</a></div>");
+		$("#digDug").append("<div><a id='dd_element1' href='materials/digDug/DigDug.sprite3'>Dig Dug</a></div>");
+		$("#dd_element1").after("<div><a id='dd_element2' href='materials/digDug/Dragon.sprite3'>Dragon</a></div>");
+		$("#dd_element2").after("<div><a id='dd_element3' href='materials/digDug/Enemy.sprite3'>Enemy</a></div>");
+		$("#dd_element3").after("<div><a id='dd_element4' href='materials/digDug/Rock.sprite3'>Rock</a></div>");
 		$("#dd_element4").after("<div><a id='dd_element5' href='materials/digDug/Background.png'>Level Background</a></div>");
 	} else {
 		$("#dd_element1").remove();
