@@ -115,6 +115,16 @@ function DonkeyKongMaterials() {
 	}
 }
 
+function FroggerMaterials() {
+	if (!$("#f_element1").length) {
+		$("#frogger").append("<div><a id='f_element1' href='materials/frogger/Background.png'>Background</a></div>");
+		$("#f_element1").after("<div><a id='f_element2' href='materials/frogger/Log.png'>Log</a></div>");
+	} else {
+		$("#f_element1").remove();
+		$("#f_element2").remove();
+	}
+}
+
 function GoldMinerMaterials() {
 	if (!$("#gm_element1").length) {
 		$("#goldMiner").append("<div><a id='gm_element1' href='materials/goldMiner/Claw.sprite3'>Claw</a></div>");
